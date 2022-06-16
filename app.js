@@ -1,5 +1,9 @@
 "use strict";
-let revenue = 1000;
-let bonus = 500;
-let res = revenue + bonus;
-console.log(res);
+function getFullName(firstname, surname) {
+    return `${firstname} ${surname}`;
+}
+// const getFullNameArrow = (firstname: string, surname: string): string => {
+//     return `${firstname} ${surname}`;
+// }
+// getFullName(true, false);
+getFullName('Htpple', 'WTF');
