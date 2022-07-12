@@ -1,14 +1,21 @@
-function getFullName(firstname: string, surname: string): string {
-    return `${firstname} ${surname}`;
+enum StatusCode {
+    SUCCESS = 1, 
+    IN_PROCESS,
+    FAILED
 }
 
 
-// const getFullNameArrow = (firstname: string, surname: string): string => {
-//     return `${firstname} ${surname}`;
-// }
+const res = { 
+    message: 'Платеж успешен', 
+    statusCode: StatusCode.SUCCESS,
+};
 
 
-// getFullName(true, false);
-getFullName('Htpple', 'WTF');
+if(res.statusCode === StatusCode.SUCCESS) {
+
+}
+
+
+
 
 
